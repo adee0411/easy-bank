@@ -4,6 +4,24 @@
 @import 'variables'; /* Import variables */
 @import 'media'; /* Import media queries */
 
+@import 'hamburger_config';
+@import '../node_modules/hamburgers/_sass/hamburgers/hamburgers.scss';
 
 
 
+
+/*.btn {
+    font-family: $base-font-family;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: $btn-border-radius;
+    background: $btn-bg;
+    background-size: 200%;
+    background-repeat: repeat-x;
+    color: $btn-text-clr;
+    transition: $smooth-transition;
+
+    &:hover {
+        background-position: right;
+    }
+}*/
