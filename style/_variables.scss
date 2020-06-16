@@ -43,10 +43,14 @@ $section-dark-bg: hsl(220, 16%, 96%);
 $footer-bg: $brand-primary-clr;
 
 /* Button */
-$btn-bg: linear-gradient(to right, $brand-secondary-clr-1, $brand-secondary-clr-2);
-$btn-hover-bg: linear-gradient(to left, $brand-secondary-clr-1, $brand-secondary-clr-2);
+$btn-bg: linear-gradient(
+    to right,
+    $brand-secondary-clr-1,
+    $brand-secondary-clr-2,
+    $brand-secondary-clr-1);
+
 $btn-text-clr: hsl(0, 0%, 100%);
-$border-radius: 10rem;
+$btn-border-radius: 10rem;
 
 /* Decoration */
 $nav-link-underline: $btn-bg;
@@ -56,5 +60,11 @@ $card-border-radius: 5px;
 $title-line-height: 1.7;
 $text-line-height: 1.5;
 
-$title-margin: 1rem;
-$text-margin: 1rem;
+$title-margin: 1rem 0;
+$text-margin: 1rem 0;
+
+$section-padding: 4rem 0;
+
+/* Others */
+
+$smooth-transition: 0.4s ease;
