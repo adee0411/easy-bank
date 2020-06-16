@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&display=swap'); /* Impport font family */
+
+$brand-primary-clr: hsl(233, 26%, 24%);
+$brand-secondary-clr-1: hsl(136, 65%, 51%);
+$brand-secondary-clr-2: hsl(192, 70%, 51%);
+
+
+
+/* $color: hsl(233, 8%, 62%);
+$color: hsl(220, 16%, 96%);
+$color: hsl(0, 0%, 98%);
+$color: hsl(0, 0%, 100%); */
+
+/* Fonts */
+$base-font-family: 'Public Sans';
+$base-fs: 18px;
+
+$small-text-fs: 0.7rem;
+$medium-text-fs: 1rem;
+$large-text-fs: 1.35rem;
+$x-large-text-fs: 1.7rem;
+
+$small-title-fs: 1.5rem;
+$medium-title-fs: 2rem;
+$large-title-fs: 2.5rem;
+$x-large-title-fs: 3rem;
+
+$base-font-weight: 300;
+$bold-font-weight: 400;
+
+
+/* Text */
+$title-txt-clr: $brand-primary-clr;
+$content-text-clr: hsl(233, 8%, 62%);
+$nav-link-clr: hsl(233, 8%, 62%);
+$nav-link-active-clr: $brand-primary-clr;
+$link-hover-color: $brand-secondary-clr-1;
+
+/* Background */
+$nav-bg: hsl(0, 0%, 100%);
+$section-light-bg: hsl(0, 0%, 98%);
+$section-dark-bg: hsl(220, 16%, 96%);
+$footer-bg: $brand-primary-clr;
+
+/* Button */
+$btn-bg: linear-gradient(to right, $brand-secondary-clr-1, $brand-secondary-clr-2);
+$btn-hover-bg: linear-gradient(to left, $brand-secondary-clr-1, $brand-secondary-clr-2);
+$btn-text-clr: hsl(0, 0%, 100%);
+$border-radius: 10rem;
+
+/* Decoration */
+$nav-link-underline: $btn-bg;
+$card-border-radius: 5px;
+
+/* Alignment and Spacing */
+$title-line-height: 1.7;
+$text-line-height: 1.5;
+
+$title-margin: 1rem;
+$text-margin: 1rem;
