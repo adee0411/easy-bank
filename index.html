@@ -4,10 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Adam Berki">
+    <link rel="icon" type="image/png" sizes="32x32" href="./resources/FAVICON-.PNG">
+
     <title>Easy Bank | Modern Banking And Financial Solutions</title>
     <link rel="stylesheet" href="./style/main.css">
 </head>
 <body>
-    <h1 style="font-size: 54px;">Next generation digital banking</h1>
+    <header class="header">
+        <nav class="nav">
+            <a href="index.html" class="nav__logo">
+                <img src="./resources/LOGO.SVG" alt="Easybank logo">
+            </a>
+
+            <!-- Animated Hamburger Button -->
+            <button class="hamburger hamburger--arrow" type="button">
+                <span class="hamburger-box">
+                  <span class="hamburger-inner"></span>
+                </span>
+            </button>
+            <!-- Animated Hamburger Button -->
+        </nav>
+    </header>
+
+    <script>
+
+        const hamburger = document.querySelector('.hamburger');
+
+        hamburger.addEventListener('click', function() {
+            this.classList.toggle('is-active');
+        })
+    </script>
 </body>
 </html>
