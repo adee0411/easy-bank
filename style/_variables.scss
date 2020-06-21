@@ -15,22 +15,22 @@ $color: hsl(0, 0%, 100%); */
 $base-font-family: 'Public Sans';
 $base-fs: 18px;
 
-$small-text-fs: 0.7rem;
-$medium-text-fs: 1rem;
-$large-text-fs: 1.35rem;
+$small-text-fs: 0.6rem;
+$medium-text-fs: 0.8rem;
+$large-text-fs: 1rem;
 $x-large-text-fs: 1.7rem;
 
-$small-title-fs: 1.5rem;
-$medium-title-fs: 2rem;
-$large-title-fs: 2.5rem;
+$small-title-fs: .9rem;
+$medium-title-fs: 1.7rem;
+$large-title-fs: 2.2rem;
 $x-large-title-fs: 3rem;
 
 $base-font-weight: 300;
-$bold-font-weight: 400;
+$bold-font-weight: 500;
 
 
 /* Text */
-$title-txt-clr: $brand-primary-clr;
+$title-text-clr: $brand-primary-clr;
 $content-text-clr: hsl(233, 8%, 62%);
 $nav-link-clr: hsl(233, 8%, 62%);
 $nav-link-active-clr: $brand-primary-clr;
@@ -57,13 +57,14 @@ $nav-link-underline: $btn-bg;
 $card-border-radius: 5px;
 
 /* Alignment and Spacing */
-$title-line-height: 1.7;
-$text-line-height: 1.5;
+$title-line-height: 1.2;
+$text-line-height: 1.6;
 
 $title-margin: 1rem 0;
 $text-margin: 1rem 0;
 
-$section-padding: 4rem 0;
+$section-padding: 4rem 6vw;
+$top-nav-height: 4rem;
 
 /* Others */
 

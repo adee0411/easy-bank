@@ -1,16 +1,16 @@
-@mixin to-medium-screen {
-    @media screen and(min-width: 375px) {
+@mixin from-medium-screen {
+    @media screen and(min-width: 576px) {
         @content;
     }
 }
 
-@mixin to-large-screen {
-    @media screen and(min-width: 1024px) {
+@mixin from-large-screen {
+    @media screen and(min-width: 900px) {
         @content;
     }
 }
 
-@mixin to-x-large-screen {
+@mixin from-x-large-screen {
     @media screen and(min-width: 1440px) {
         @content;
     }
