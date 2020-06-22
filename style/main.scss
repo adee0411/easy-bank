@@ -148,13 +148,13 @@ img {
 
     &__item {
         width: 100%;
-        height: 100%;
         padding: 0.3em;
         text-align: center;
         background: $nav-bg;
         position: relative;
 
         @include from-large-screen {
+            height: 100%;
             padding: 0;
             display: flex;
             justify-content: center;
@@ -438,7 +438,6 @@ img {
 
     &__logo {
         grid-column: 2 / 3;
-        width: 100%;
         margin: 0 auto;
 
         img {
@@ -448,6 +447,7 @@ img {
         @include from-large-screen {
             grid-column: 2 / 3;
             grid-row: 1 / 2;
+            margin: 0;
         }
     }
 
@@ -474,13 +474,15 @@ img {
 
     &__links {
         grid-column: 2 / 3;
-        width: 400px;
-
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        max-width: 400px;
+        margin: 0 auto;
 
         @include from-large-screen {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin: 0;
+
             grid-column: 3 / 4;
             grid-row: 1 / 3;
         }

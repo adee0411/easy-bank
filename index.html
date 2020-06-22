@@ -183,13 +183,42 @@
     </footer>
 
     <script>
-
+        // Constants and variables
         const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
 
         hamburger.addEventListener('click', function() {
             this.classList.toggle('is-active');
-            document.querySelector('.nav-links').classList.toggle('is-active');
+            navLinks.classList.toggle('is-active');
         });
+
+        navLinks.addEventListener('click', function(e) {
+            let target = event.target;
+
+            if(!target.className.includes('nav-links__item')) { // Remove active state when user clicks out of the link list (black space)
+                closeHamburger();
+            }
+        });
+
+
+
+        let mediaQueryMatches = window.matchMedia('(min-width: 900px)');
+
+        window.addEventListener('resize', function() {
+
+            if(mediaQueryMatches.matches) { // Remove hamburger active state only when window's width is above the media query
+                closeHamburger();
+            }
+        });
+
+
+
+
+        function closeHamburger() {
+            hamburger.classList.remove('is-active');
+            navLinks.classList.remove('is-active');
+        }
     </script>
 </body>
 </html>
